@@ -1,0 +1,137 @@
+@import url("font-awesome.css");
+
+body {
+	background: linear-gradient(to right, #6633CC , #FF3366);
+	font-size: 16px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	max-width: 100%;
+}
+
+.tengah {
+	margin-top: 18%;
+	margin-left: 30%;
+	display: inline-block;
+}
+
+.tengah img {
+	height: 105px;
+	width: 105px;
+	margin-bottom: 10px;
+	margin-left: 165px;
+}
+
+label.find-me {
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	margin-left: 135px;
+	margin-bottom: -3px;
+}
+
+.btn-instagram {
+	border: 2px solid #f1f4f7;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.btn-instagram:hover {
+	border: 2px solid #f1f4f7;
+	background: #6CC3D5;
+	color: #660066;
+}
+
+.btn-facebook {
+	border: 2px solid #f1f4f7;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.btn-facebook:hover{
+	border: 2px solid #f1f4f7;
+	background: #6CC3D5;
+	color: blue;
+}
+
+.btn-github {
+	border: 2px solid #f1f4f7;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.btn-github:hover{
+	border: 2px solid #f1f4f7;
+	background: #6CC3D5;
+	color: #333333;
+}
+
+.btn-blog {
+	border: 2px solid #f1f4f7;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.btn-blog:hover{
+	border: 2px solid #f1f4f7;
+	background: #6CC3D5;
+	color: #CC3300;
+}
+
+@media (max-width: 768px) {
+	.tengah {
+		margin-top: 130px;
+		margin-left: 40px;
+		display: inline-block;
+	}
+	
+	.tengah img {
+		height: 105px;
+		width: 105px;
+		margin-bottom: 10px;
+		margin-left: 73px;
+	}
+
+	label.find-me {
+		display: block;
+		color: #fff;
+		font-size: 30px;
+		margin-left: 38px;
+		margin-bottom: -3px;
+	}
+
+	.btn-instagram {
+		display: block;
+		border: 2px solid #f1f4f7;
+		border-radius: 10px;
+		color: #fff;
+		margin-bottom: 5px;
+		margin-left: 38px;
+	}
+
+	.btn-facebook {
+		display: block;
+		border: 2px solid #f1f4f7;
+		border-radius: 10px;
+		color: #fff;
+		margin-bottom: 5px;
+		margin-left: 38px;
+	}
+
+	.btn-github {
+		display: block;
+		border: 2px solid #f1f4f7;
+		border-radius: 10px;
+		color: #fff;
+		margin-bottom: 5px;
+		margin-left: 38px;
+	}
+
+	.btn-blog {
+		display: block;
+		border: 2px solid #f1f4f7;
+		border-radius: 10px;
+		color: #fff;
+		margin-bottom: 5px;
+		margin-left: 38px;
+	}
+
+}
