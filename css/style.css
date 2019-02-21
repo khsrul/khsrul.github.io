@@ -138,6 +138,15 @@ label.find-me {
 }
 
 @media (max-width: 768px) {
+	.bulat span {
+		position: absolute;
+		margin-left: auto;
+		height: 40px;
+		width: 40px;
+		background: white;
+		border-radius: 999px;
+	}
+	
 	.tengah {
 		margin-top: 130px;
 		margin-left: 40px;
